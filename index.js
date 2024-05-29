@@ -84,4 +84,4 @@ app.get("/eliminar", (req,res) => {
         })
     })
 })
-app.use("/deportes", espress.static(__dirname + "/data/deportes.json"));
+app.use("/deportes", express.static(__dirname + "/data/deportes.json"));
